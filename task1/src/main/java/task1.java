@@ -35,9 +35,13 @@ public class task1 {
             i=next;
         } while (next != 1);
 
-        String arrayToString = Arrays.toString(arr2);
+        StringBuilder builder = new StringBuilder();
+        for (int a : arr2) {
+            builder.append(a);
+        }
+        String text = builder.toString();
+        System.out.println(text);
 
-        System.out.println(arrayToString);
 
         in.close();
     }
