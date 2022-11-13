@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class task1 {
-    public static void main(String[] ars) {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
         System.out.print("Задайте длину массива  шага: ");
