@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import static java.lang.Math.abs;
 
-public class task3 {
+public class task4 {
 
     public static void main(String[] args) throws FileNotFoundException {
 
